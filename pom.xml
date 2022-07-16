@@ -26,11 +26,11 @@
         <!-- 是否跳过前端编译文件清除 -->
         <web.clean.skip>true</web.clean.skip>
         <!-- 前端文件目录 -->
-        <web.path/>
+        <web.path>${basedir}/grape-core/grape-web</web.path>
         <!-- 前端编译目录 -->
-        <web.build.path/>
+        <web.build.path>${basedir}/grape-core/grape-web/dist</web.build.path>
         <!-- web存放在resources下的目录 -->
-        <web.resources.path/>
+        <web.resources.path>plugin-gen/web</web.resources.path>
     </properties>
 
     <profiles>
